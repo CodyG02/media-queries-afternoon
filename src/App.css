@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+}
+.App{
+  background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+height: 100vh;
+width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+width: 100vw;
+height: 10vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 350px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header > h1{
+color: gold;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-bar{
+display: flex;
+width: 60%;
+height: 100%;
+align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-list{
+display:flex;
+width:100%;
+height: 100%;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding-right: 350px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item{
+color:white;
+list-style-type: none;
+}
+
+.mobile-nav-list{
+
+}
+
+.body{
+
+}
+
+.welcome-text{
+
+}
+
+.meet-you{
+
+}
+
+.more-button{
+
 }
